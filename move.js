@@ -1,5 +1,5 @@
 $('.transfer').click(function () {
-  // console.log(123)
+   console.log(123)
   $('.content').animate({
     top: "120%"
   }, 1000, function () {
@@ -13,13 +13,30 @@ $('.transfer').click(function () {
         height: "500px",
       }, 300, function () {
         $('#tytle').animate({
-
+          opacity:1.0,
+          left:"20px"
         })
-
+        $('#tytle2').animate({
+          opacity:1.0,
+          left:"20px"
+        })
+        $('#leftcontent').animate({
+          opacity:1.0,
+          left:"20px"
+        })
+        $('#littleword').animate({
+          opacity:1.0,
+          left:"20px"
+        })
+        $('#icon').animate({
+          opacity:1.0,
+        })
       })
     })
   })
 });
 
 
-$('.delete').click()
+$('.icon').click(function(){
+  console.log(123)
+})
