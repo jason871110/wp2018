@@ -1,0 +1,49 @@
+.leftshow{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    color: white;
+    width:400px;
+    height:0px;
+    background-color:white;
+}
+#tytle{
+    position: absolute;
+    top: 5%;
+    left: -100%;
+    color:purple;
+}
+#icon{
+    position: absolute;
+    top:5%;
+    right:5%;
+    color:black;
+    width:15px;
+    height:15px;
+    background-color:purple;
+}
+#tytle2{
+    position: absolute;
+    top:12%;
+    left:-100%;
+    color:black;
+    font-size:60px;
+}
+#leftcontent{
+    position: absolute;
+    top:60%;
+    left:-100%;
+    color:black;
+    font-size:15px;
+}
+#littleword{
+    position: absolute;
+    bottom:5%;
+    left:-100%;
+    color:black;
+    font-size:15px;
+    background-color: blueviolet;
+}
+.in{
+    /* opacity:0.0; */
+}
